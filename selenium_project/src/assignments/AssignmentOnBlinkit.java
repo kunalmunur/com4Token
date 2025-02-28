@@ -25,6 +25,8 @@ public class AssignmentOnBlinkit {
 		WebElement addButton = driver.findElement(By.xpath("//div[text()='ADD']"));
 		addButton.click();
 		//Pull
+		
+		driver.close();
 	}
 
 }
